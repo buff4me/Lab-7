@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        List<string> householdItems = new List<string>();
+
+       
+        householdItems.Add("Chair");
+        householdItems.Add("Table");
+        householdItems.Add("Lamp");
+        householdItems.Add("Sofa");
+        householdItems.Add("Television");
+       
+
+        // Print out the list of household items
+        Console.WriteLine("List of Household Items:");
+        foreach (string item in householdItems)
+        {
+            Console.WriteLine(item);
+        }
+    }
+}
